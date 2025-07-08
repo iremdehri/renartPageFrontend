@@ -1,0 +1,67 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./assets/fonts/avenir/Avenir-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url('./assets/fonts/avenir/Avenir-Black.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #F5F5F5;
+}
+
+.font-avenir {
+  font-family: 'Avenir', Arial, sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  font-size: 24px;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: stretch;
+  height: auto;
+}
+
+.slick-arrow {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
+}
+.slick-prev, .slick-next {
+  width: 40px !important;
+  height: 40px !important;
+}
+.slick-prev:before, .slick-next:before {
+  display: none !important;
+}
+
