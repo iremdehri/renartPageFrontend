@@ -22,7 +22,7 @@ function App() {
         setLoading(false);
       });
   }, []);
-
+  
   if (loading) return <div className="p-8 text-center">Yükleniyor...</div>;
   if (error) return <div className="p-8 text-center text-red-500">Hata: {error}</div>;
   console.log("ProductCarousel içindeki ürün sayısı:", products.length);
